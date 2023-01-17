@@ -1,0 +1,29 @@
+.timer {
+    margin-bottom: 15px;
+    width: 100%;
+    display: grid;
+    &__time {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 20% auto 20%;
+        grid-template-areas: " . value icon";
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 4px;
+        background-color: #f2dede;
+        color: #b45d5c;
+    }
+    &__value {
+        grid-area: value;
+        justify-self: center;
+    }
+    &__icon {
+        grid-area: icon;
+        justify-self: end;
+    }
+    &__descr {
+        justify-self: center;
+        color: #0a87b4;
+        font-weight: 500;
+    }
+}

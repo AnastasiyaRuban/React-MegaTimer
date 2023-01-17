@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+    &__row:nth-child(odd) {
+        background-color: #e0e0e0;
+    }
+    &__row-title {
+        padding-left: 5px;
+        text-align: start;
+        font-size: 14px;
+        color: #494949;
+    }
+    &__head {
+        border-bottom: 2px solid grey;
+        color: #0a87b4;
+    }
+
+    &__head:after {
+        content: "";
+        display: block;
+        height: 10px;
+    }
+
+    &__head-cell {
+        font-weight: 500;
+    }
+}
+
+th,
+td {
+    text-align: center;
+}

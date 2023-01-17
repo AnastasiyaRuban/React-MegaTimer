@@ -1,0 +1,13 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.header {
+    margin-bottom: 40px;
+    &__title {
+        margin-bottom: 50px;
+        color: #d64646;
+        font-size: 26px;
+    }
+    &__descr {
+        color: #cf4f6b;
+    }
+}
