@@ -38,8 +38,8 @@ export default function Timer({ participants }) {
     timerID = setInterval(tick, 1000);
 
     return () => {
-      clearInterval(timerID);
       setCurrentParticipant(currentParticipant);
+      clearInterval(timerID);
     };
   }, [minutes, seconds, currentParticipant]);
 
